@@ -1,0 +1,11 @@
+businessID=1113
+mailAddress=howie_test@163.com
+expiredTime=0
+#senderName=
+#senderAddress=testSender@sohu.com
+#senderIp=127.0.0.1
+#copyTo=[howie666@126.com,wanghongwei47@jd.com]
+#attach={"attachName":"fio.xlsx","attachUrl":"http://storage.jd.com/testtmpfile/fio.xlsx"}
+#title=modes
+title=普通文本邮件
+content=普通文本

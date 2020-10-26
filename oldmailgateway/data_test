@@ -1,0 +1,17 @@
+#SELECT testMail FROM sqlite_master WHERE type = 'table';
+#Create table testMail(id INTEGER PRIMARY KEY AUTOINCREMENT, address varchar UNIQUE, passwd varchar, server varchar, port varchar);
+SELECT * FROM testMail;
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@163.com', 'w123456w', 'imap.163.com', '143');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@outlook.com', 'w123456w', 'imap-mail.outlook.com', '993');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@hotmail.com', 'w123456w', 'imap-mail.outlook.com', '993');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@sohu.com', 'w123456w', 'imap.sohu.com', '143');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie.w.test@gmail.com', 'w102938w', 'imap.gmail.com', '993');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@tom.com', 'w123456', 'imap.tom.com', '143');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@sina.com', 'w123456', 'imap.sina.com', '143');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@126.com', 'w123456w', 'imap.126.com', '143');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@yahoo.com', 'w123456w', 'imap.mail.yahoo.com', '993');
+#INSERT INTO testMail (address, passwd, server, port) VALUES ('howie_test@yeah.net', 'w123456w', 'imap.yeah.net', '143');
+#INSERT INTO testMail (address, passwd) VALUES ('wanghongwei47@jd.com', 'Whw230581$');
+#CREATE TABLE mode(type INTEGER NOT NULL, title varchar NOT NULL UNIQUE, content varchar NOT NULL);
+#DROP TABLE mode;
+#INSERT INTO testMail (address, passwd) VALUES ('1316475919@qq.com', 'w123456w');

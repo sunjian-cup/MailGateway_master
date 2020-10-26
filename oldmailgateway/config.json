@@ -1,0 +1,199 @@
+{
+  "jsf": {
+    "host": {
+      "thailand": "172.26.58.178",
+      "indonesia": "gid.jsf.jd.local",
+      "china": "gid.jsf.jd.local",
+      "international": "g.jsf.jd.local"
+    },
+    "interface": "com.jd.api.rmail.service.EdmMailService",
+    "method": "sendEmail",
+    "appid": {
+      "thailand": "41412",
+      "indonesia": "41741",
+      "china_prod": "42912",
+      "china_sale": "42913",
+      "international": "45595"
+    },
+    "token": {
+      "thailand": "VBbXzW7xlaD3YiqcVrVehA",
+      "indonesia": "VBbYzW6xlaC3XiqcVrVehA",
+      "china_prod": "VBbXzW7xlaD3YiqcVrVehA",
+      "china_sale": "VBbXzW7xlaD3YiqcVrVehA",
+      "international": "VBbXzW7xlaD3YiqcVrVehA"
+    },
+    "alias": {
+      "thailand": {
+        "online": "edm_mailService_th",
+        "yfb": "edm_mailService_beta_th"
+      },
+      "indonesia": {
+        "online": "edm_mailService_id",
+        "yfb": "edm_mailService_beta_id"
+      },
+      "china_prod": {
+        "online": "edm_mailService_cn_pro",
+        "yfb": "edm_mailService_cn_pro_beta"
+      },
+      "china_sale": {
+        "online": "edm_mailService_cn_sale",
+        "yfb": "edm_mailService_cn_sale_beta"
+      },
+      "international": {
+        "online": "edm_mailService_ept",
+        "yfb": "edm_mailService_beta_ept"
+      }
+    }
+  },
+  "http": {
+    "thailand": {
+      "sale": {
+        "general": {
+          "account": "edm_sale_th_test",
+          "token": "i4wndpkt1toq"
+        },
+        "blacklist": {
+          "account": "edm_sale_th_account",
+          "token": "c68a96def8b8"
+        },
+        "type": "2"
+      },
+      "prod_c": {
+        "general": {
+          "account": "edm_prod_c_th_test",
+          "token": "vl1hmrzkaprl"
+        },
+        "blacklist": {
+          "account": "edm_prod_low_th_acco",
+          "token": "2106e83aa43d"
+        },
+        "type": "1"
+      },
+      "prod_h": {
+        "general": {
+          "account": "edm_prod_h_th_test",
+          "token": "etybk32cf8u1"
+        },
+        "blacklist": {
+          "account": "edm_prod_high_th_acc",
+          "token": "665f789bdc3b"
+        },
+        "type": "1"
+      }
+    },
+    "indonesia": {
+      "sale": {
+        "general": {
+          "account": "edm_sale_id_test",
+          "token": "i4wndpkt1toq"
+        },
+        "blacklist": {
+          "account": "edm_sale_id_account",
+          "token": "c68a96def8b845f381c4e82e7"
+        },
+        "type": "2"
+      },
+      "prod_c": {
+        "general": {
+          "account": "edm_prod_c_id_test",
+          "token": "vl1hmrzkaprl"
+        },
+        "blacklist": {
+          "account": "edm_prod_low_id_account",
+          "token": "2106e83aa43d48f973743"
+        },
+        "type": "1"
+      },
+      "prod_h": {
+        "general": {
+          "account": "edm_prod_h_id_test",
+          "token": "etybk32cf8u1"
+        },
+        "blacklist": {
+          "account": "edm_prod_high_id_account",
+          "token": "665f789bdc3b4718b166544"
+        },
+        "type": "1"
+      }
+    },
+    "china": {
+      "sale": {
+        "general": {
+          "account": "edm_sale_test",
+          "token": "i4wndpkt1toq"
+        },
+        "blacklist": {
+          "account": "",
+          "token": ""
+        },
+        "type": "2"
+      },
+      "prod_c": {
+        "general": {
+          "account": "edm_prod_common_test",
+          "token": "vl1hmrzkaprl"
+        },
+        "blacklist": {
+          "account": "",
+          "token": ""
+        },
+        "type": "1"
+      },
+      "prod_h": {
+        "general": {
+          "account": "edm_prod_high_test",
+          "token": "etybk32cf8u1"
+        },
+        "blacklist": {
+          "account": "",
+          "token": ""
+        },
+        "type": "1"
+      }
+    },
+    "international": {
+      "sale": {
+        "general": {
+          "account": "edm_sale_ept_test",
+          "token": "i4wndpkt1toq"
+        },
+        "blacklist": {
+          "account": "",
+          "token": ""
+        },
+        "type": "2"
+      },
+      "prod_c": {
+        "general": {
+          "account": "edm_prod_c_ept_test",
+          "token": "vl1hmrzkaprl"
+        },
+        "blacklist": {
+          "account": "",
+          "token": ""
+        },
+        "type": "1"
+      },
+      "prod_h": {
+        "general": {
+          "account": "edm_prod_h_ept_test",
+          "token": "etybk32cf8u1"
+        },
+        "blacklist": {
+          "account": "",
+          "token": ""
+        },
+        "type": "1"
+      }
+    }
+  },
+  "send_mail_parameter": {
+    "mailAddress": "wanghongwei47@jd.com",
+    "expiredTime": "0",
+    "senderName": "",
+    "senderAddress": "testSender@sohu.com",
+    "senderIp": "127.0.0.1",
+    "title": "123",
+    "content": "abc"
+  }
+}
