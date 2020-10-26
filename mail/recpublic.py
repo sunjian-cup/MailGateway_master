@@ -2,7 +2,7 @@ import base64
 import poplib
 from email.parser import Parser
 from email import header
-from numpy.core import unicode
+#from numpy.core import unicode
 import json
 
 
